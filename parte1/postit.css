@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    font-family: "Indie Flower";
+    font-weight: 400;
+    font-size: larger;
+}
+
+
+.lavagna{
+height: 600px;
+    background-color: rgb(158, 158, 154);
+   display: flex;
+   flex-wrap: wrap;
+justify-content: space-evenly;
+gap: 19px ;
+margin: 100px;
+border-radius: 20px;
+}
+
+
+ .postIt1{
+     background-color: rgb(216, 205, 103);
+     width: 270px;
+     height: 210px;
+     margin: 40px;
+     background-image: linear-gradient(0deg, rgb(191, 191, 191) 0%, rgba(253, 254, 205, 1) 19%);
+     box-shadow: 10px 5px 5px rgb(114, 109, 109);
+     transform: rotate(-5deg);
+     transition: .2s
+ }
+
+
+ .postIt2{
+    background-color: rgb(85, 238, 25);
+        width: 270px;
+        height: 210px;
+        margin: 40px;
+      background: linear-gradient(0deg, rgba(191, 191, 191, 1) 0%, rgba(253, 254, 205, 1) 19%);
+      box-shadow: 10px 5px 5px rgb(114, 109, 109);
+      transform: rotate(3deg);
+      transition: .2s
+     }
+
+     .postIt3{
+        background-color: rgb(155, 23, 231);
+            width: 270px;
+            height: 210px;
+            margin: 40px;
+          background: linear-gradient(0deg, rgba(191, 191, 191, 1) 0%, rgba(253, 254, 205, 1) 19%);
+          box-shadow: 10px 5px 5px rgb(114, 109, 109);
+          transform: rotate(3deg);
+          transition: .2s
+         }
+
+
+.postIt1:hover{
+    transform: scale(1.5);
+    box-shadow: 10px 5px 5px rgb(61, 60, 60);
+}
+
+.postIt2:hover{
+    transform: scale(1.5);
+    box-shadow: 10px 5px 5px rgb(61, 60, 60);
+}
+
+.postIt3:hover{
+    transform: scale(1.5);
+    box-shadow: 10px 5px 5px rgb(61, 60, 60);
+}
+
+
+h1 {
+    text-align: center;
+    margin-top: 55px;
+    font-weight: 900;
+    font-size: 35px;
+}
+
+p{
+padding-top: 20px;
+text-align: center;
+font-weight: 600;
+}
